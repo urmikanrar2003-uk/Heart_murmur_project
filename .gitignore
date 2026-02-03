@@ -7,7 +7,7 @@ wheels/
 *.egg-info
 
 # Virtual environments
-hvenv
+myenv
 model_files
 tuner_dir
 
