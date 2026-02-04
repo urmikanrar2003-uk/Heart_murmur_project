@@ -10,4 +10,7 @@ wheels/
 myenv
 model_files
 tuner_dir
+model.h5
+
+best_model4.keras
 
