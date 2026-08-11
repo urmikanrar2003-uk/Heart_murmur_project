@@ -1,11 +1,11 @@
-# Heart Murmur Detection using LSTM
+# Heart Murmur Detection using LSTM-CNN architecture
 
 A deep learning project to detect and classify heart murmurs from heartbeat audio recordings using a Long Short-Term Memory (LSTM) neural network. This repository includes a web application built with Streamlit for a user-friendly interface to process and analyze audio files in real-time.
 
 ## 🚀 Features
 
 - **Audio Pattern Analysis**: Upload heartbeat sounds (`.wav` or `.mp3`) and view their waveforms.
-- **Deep Learning Model**: Uses a trained LSTM model to classify sounds into 3 categories: **Artifact**, **Murmur**, and **Normal**.
+- **Deep Learning Model**: Uses a trained LSTM-CNN model to classify sounds into 3 categories: **Artifact**, **Murmur**, and **Normal**.
 - **Real-Time Classification**: Automatically extracts Mel-Frequency Cepstral Coefficients (MFCCs) and processes them for inference.
 - **Hugging Face Integration**: Securely downloads and caches the pre-trained Keras model from the Hugging Face Hub automatically.
 
